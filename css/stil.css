@@ -1,0 +1,141 @@
+.flexed {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*elements*/
+body {
+     background-color: black;
+     font-family: 'Kodchasan', sans-serif;
+
+}
+
+a{
+font-family: 'Rock Salt', cursive;
+font-size: 0.8em;
+text-decoration: none;
+color: darkturquoise;}
+
+
+}
+
+a:hover {
+    color: white;
+}
+
+
+/*contenidors*/
+#contenidor-general {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-color:black;
+}
+
+#contenidor-xxss {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    text-align: right;
+}
+
+.contenidor-text {
+    margin: autos;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.contenidor-flex {
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+
+
+}
+
+
+.contenidor-imatge {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+#contenidor-footer {
+    padding: 5px;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: white;
+    opacity: .4;
+}
+
+.contenidor-boto {
+    flex: 1 100px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid red;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+
+}
+
+.item {
+    flex-grow: <number>;
+}
+
+.container {
+    flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+.item {
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+.container {
+    align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+
+/*Icones*/
+
+.fa-instagram {
+    font-size: 36px;
+    color: darkturquoise;
+    margin-right: 10px;
+}
+
+.fa-facebook-square {
+    font-size: 36px;
+    color: darkturquoise;
+    margin-right: 10px;
+}
+
+/*Imatges*/
+.imatge1 {
+    width: 100%;
+}
+
+.imatge2 {
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    .imatge1 {
+        display: none;
+    }
+
+    .imatge2 {
+        width: 100%;
+        display: block;
+
+    }
+}

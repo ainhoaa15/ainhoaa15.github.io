@@ -1,0 +1,20 @@
+.contenidor-contacte{
+    margin: 5px;
+    color:white;
+        font-family: 'Rock Salt', cursive;
+
+}
+a{
+font-family: 'Rock Salt', cursive;
+    font-size: 0.8em;}
+
+#contenidor-footer{
+    padding: 5px;
+    border: 1px solid white;   
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: gray;
+    opacity: .4;
+}
