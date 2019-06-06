@@ -1,15 +1,17 @@
 body{
-    background-color: black;
-        font-family: 'Rock Salt', cursive;
-
+    background-color: #FFED8F;
+         font-family:  'Quicksand', sans-serif;;
 }
-a{font-family: 'Rock Salt', cursive;
+
+@media;
+    
+a{ font-family:  'Quicksand', sans-serif;;
 font-size: 0.8em;}
 
 
 .contenidor-feina{
-     margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid white;  
     align-content: center;
 
@@ -17,28 +19,23 @@ font-size: 0.8em;}
 
 /*imatges*/
 
-.img1{
-    width: 100%;
-    padding: 5px;
-    
-    
-}
 
-.img2{
-    width: 50%;
-    padding: 5px;
-}
-
-
-
-.img4{
-    width: 100%;
-    padding: 5px;
-}
 
 /*text*/
+  .container-display {
+        position:absolute;
+        padding: 10px;
+        margin: 20px;
+    
+  
+        /*indicador*/
+        margin: auto;
+        border: 1px dashed green;
+
+    }
 
 .contenidor-text{
+    ;
     
 }
 
@@ -58,21 +55,14 @@ font-size: 0.8em;}
     }
 
     .container {
-        width: 75%;
-        margin: auto;
+        width: 100%;
+        margin: 100%;
         border: 1px solid red;
         box-sizing: border-box;
         text-align: center;
     }
 
-    .container-display {
-        position: relative;
-        width: 98%;
-        /*indicador*/
-        margin: 5px;
-        border: 1px dashed green;
-
-    }
+  
 
     .container-text {
         text-align: left;
@@ -111,4 +101,10 @@ font-size: 0.8em;}
 
     .mySlides {
         display: none;
+        
     }
+
+img{
+    position: relative;
+    left:25%;
+}

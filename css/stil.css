@@ -6,16 +6,16 @@
 
 /*elements*/
 body {
-     background-color: black;
+     background-color: #FFED8F;
      font-family: 'Kodchasan', sans-serif;
 
 }
 
 a{
-font-family: 'Rock Salt', cursive;
-font-size: 0.8em;
+font-family:  'Quicksand', sans-serif;;
+font-size: 0.9em;
 text-decoration: none;
-color: darkturquoise;}
+color: #8E44AD  ;}
 
 
 }
@@ -30,13 +30,13 @@ a:hover {
     display: block;
     width: 100%;
     margin: auto;
-    background-color:black;
+    background-color: #FFED8F;
 }
 
 #contenidor-xxss {
     margin: 5px;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid  white;
     text-align: right;
 }
 
@@ -45,14 +45,14 @@ a:hover {
     padding: 10px;
     border: 1px solid white;
     text-align: center;
-    color: white;
-    font-family: 'Rock Salt', cursive;
+    color: #8E44AD;   
+    font-family: 'Quicksand', sans-serif;
 }
 
 .contenidor-flex {
     margin: 0px;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid  white;
     display: flex;
     flex-wrap: wrap;
     color: white;
@@ -109,13 +109,13 @@ a:hover {
 
 .fa-instagram {
     font-size: 36px;
-    color: darkturquoise;
+    color: #8E44AD;
     margin-right: 10px;
 }
 
 .fa-facebook-square {
     font-size: 36px;
-    color: darkturquoise;
+    color: #8E44AD;
     margin-right: 10px;
 }
 

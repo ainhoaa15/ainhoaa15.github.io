@@ -1,12 +1,16 @@
 .contenidor-contacte{
     margin: 5px;
-    color:white;
-        font-family: 'Rock Salt', cursive;
+    color:#4A235A;
+    font-family:  'Quicksand', sans-serif;
+    font-size: 1.0em;
 
 }
+
 a{
-font-family: 'Rock Salt', cursive;
-    font-size: 0.8em;}
+ font-family:  'Quicksand', sans-serif;
+    font-size: 0.8em;
+
+}
 
 #contenidor-footer{
     padding: 5px;
