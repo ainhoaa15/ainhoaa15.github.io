@@ -20,6 +20,8 @@ color: #8E44AD  ;}
 
 }
 
+
+
 a:hover {
     color: white;
 }
@@ -138,4 +140,8 @@ a:hover {
         display: block;
 
     }
+}
+
+.color{
+    color: #4A235A;
 }

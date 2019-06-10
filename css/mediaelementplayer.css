@@ -2,7 +2,7 @@
 Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-how/ */
 body{
     background-color: #FFED8F;
-         font-family:  'Quicksand', sans-serif;;
+    font-family:  'Quicksand', sans-serif;
 }
 a{ font-family:  'Quicksand', sans-serif;;
 font-size: 0.8em;}
